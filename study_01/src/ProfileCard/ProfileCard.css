@@ -1,15 +1,66 @@
 .profile {
-    display: flex;
+    display: block;
     width: 300px;
     background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
 }
 
 .description {
     display: block;
+    text-align: center;
+    
 }
 
 .avatar {
-    width: 50px;
-    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50%;
     border-radius: 50%;
+}
+
+.name {
+  font-size: 2rem;
+  color: black;
+}
+
+.tag {
+    font-size: 1.1rem;
+    color: gray;
+}
+
+.location {
+    font-size: 1.2rem;
+    color: gray;   
+}
+
+.stats {
+    display: flex;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+    background-color: azure;
+
+    list-style-type: none;
+}
+
+.stats li {
+    flex-grow: 1;
+    text-align: center;
+    border: 1px solid grey;
+    
+}
+
+.label {
+    display: block;
+    font-size: 1rem;
+    color: gray;
+}
+
+.quantity {
+    display: block;
+    font-size: 2rem;
+    color: black;
 }
