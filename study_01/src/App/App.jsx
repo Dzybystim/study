@@ -9,7 +9,6 @@ import friends from '../friends.json'
 
 function App() {
 const {username, tag, location, avatar, stats} = user;
-const {avataro, name, isOnline, ido} = friends;
 
   return (
     <>
@@ -22,10 +21,7 @@ const {avataro, name, isOnline, ido} = friends;
         stats={stats}/>
         <Statistics title="Upload stats" stats={data}/>
         <FriendList 
-        avatar={avataro}
-        name={name}
-        isOnline={isOnline}
-        id={ido}/>
+        friends={friends}/>
       </div>
     </>
   )
