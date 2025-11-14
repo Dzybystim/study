@@ -22,7 +22,7 @@
     margin-bottom: 0;
 }
 
-.avatar {
+.avatarFriend {
     display: block;
     box-sizing: content-box;
     width: 48px;
@@ -39,6 +39,7 @@
     height: 10px;
     display: block;
     border-radius: 50%;
+    margin-left: 15px;
 }
 
 .online {

@@ -1,0 +1,42 @@
+th {
+    border: 1px solid black;
+}
+
+th:first-child {
+    border-right: 0;
+}
+
+th:last-child {
+    border-left: 0;
+}
+
+td {
+    border: 1px solid grey;
+    border-top: 0;
+}
+
+td:first-child {
+    border-right: 0;
+}
+
+td:last-child {
+    border-left: 0;
+}
+
+tr:nth-child(even) {
+    background-color: azure;
+}
+
+.transaction-history {
+    width: 300px;
+    background-color: aliceblue;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.transaction-head {
+    color: white;
+    background-color: aquamarine;
+}
+
